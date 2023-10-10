@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+#jatekter {
+    width: 100%;
+    margin: auto;
+    display: grid;
+}
+
+#ujJatek {
+    margin: 10px;
+}
+
+.mezo {
+    border: 3px solid black;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.sarga {
+    background-color: yellow;
+}
+
+.zold {
+    background-color: green;
+}
+
+#ujJatekButton {
+    font-size: 25px;
+    padding: 5px;
+    color: yellow;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: green;
+}
+
+#ujJatekButton:hover {
+    cursor: pointer;
+    color: green;
+    border-radius: 5px;
+    background-color: yellow;
+}
